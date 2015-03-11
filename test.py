@@ -34,3 +34,16 @@ class TestCanIUse(unittest.TestCase):
             self.assertRaises(ValueError, self.can_i_use._get_data(exit_on_fail=False),
                               'Invalid data provided from url [%s]' % self.can_i_use.data_url)
         self.assertTrue(mock_get.assert_called())
+
+    def test_find_feature(self):
+        self.assertTrue(False)
+
+    def test_store_data(self):
+        self.assertTrue(False)
+
+    def test_update_data(self):
+        self.assertTrue(False)
+
+
+if __name__ == '__main__':
+    unittest.main()

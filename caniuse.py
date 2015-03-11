@@ -34,6 +34,24 @@ class CanIUse():
             else:
                 return
 
+    def _store_data(self):
+        """
+        Store data localy for not making requests and parsing json latter
+        """
+        pass
+
+    def _find_feature(self):
+        """
+        Finds feautre provided as cli argsnd returns its support status
+        """
+        pass
+
+    def _update_data(self):
+        """
+        Checks for data updates and store new data for latter use
+        """
+        pass
+
 
 if __name__ == '__main__':
     ciu = CanIUse()
